@@ -1,0 +1,201 @@
+html, body{
+  height: 100%;
+}
+
+.containerr{
+  width: 100%;
+  height: 750px;
+  background: linear-gradient(0, #ffffff, #40569493, #3d5494, #120c56, #000000);
+  overflow: hidden;
+}
+
+.stars{
+  position: relative;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: 50px 30px white, 
+  100px 190px white,
+  80px 120px white,
+  300px 35px white,
+  250px 140px white,
+  200px 50px white,
+  150px 100px white,
+  350px 100px white,
+  50px 300px white, 
+  100px 430px white,
+  80px 700px white,
+  300px 200px white,
+  250px 400px white,
+  200px 500px white,
+  150px 300px white,
+  320px 600px white,
+  450px 720px white,
+  110px 520px white,
+  800px 800px white,
+  900px 900px white,
+  730px 420px white,
+  873px 457px white,
+  400px 250px white,
+  1010px 300px white,
+  762px 431px white,
+  417px 229px white,
+  1220px 300px white,
+  1357px 287px white,
+  1403px 453px white,
+  1300px 370px white,
+  1545px 250px white,
+  1469px 367px white,
+  1430px 174px white,
+  1500px 195px white,
+  1470px 210px white,
+  1000px 70px white,
+  1264px 100px white,
+  1347px 214px white,
+  1259px 200px white,
+  1453px 63px white,
+  1497px 80px white,
+  1485px 223px white,
+  1420px 30px white,
+  1387px 97px white,
+  1340px 86px white,
+  1569px 20px white,
+  1095px 565px white,
+  1165px 495px white,
+  1280px 600px white,
+  1176px 138px white,
+  1100px 30px white,
+  1072px 117px white,
+  1143px 225px white,
+  1073px 413px white,
+  1220px 50px white,
+  1324px 17px white,
+  1220px 50px white;
+  animation: anim-stars 30s linear infinite;
+}
+
+.stars::after{
+  content: " ";
+  position: absolute;
+  top: 780px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: 50px 30px white, 
+  100px 190px white,
+  80px 120px white,
+  300px 35px white,
+  250px 140px white,
+  200px 50px white,
+  150px 100px white,
+  350px 100px white,
+  50px 300px white, 
+  100px 430px white,
+  80px 700px white,
+  300px 200px white,
+  250px 400px white,
+  200px 500px white,
+  150px 300px white,
+  320px 600px white,
+  450px 720px white,
+  110px 520px white,
+  800px 800px white,
+  900px 900px white,
+  730px 420px white,
+  873px 457px white,
+  400px 250px white,
+  1010px 300px white,
+  762px 431px white,
+  417px 229px white,
+  1220px 300px white,
+  1357px 287px white,
+  1403px 453px white,
+  1300px 370px white,
+  1545px 250px white,
+  1469px 367px white,
+  1430px 174px white,
+  1500px 195px white,
+  1470px 210px white,
+  1000px 70px white,
+  1264px 100px white,
+  1347px 214px white,
+  1259px 200px white,
+  1453px 63px white,
+  1497px 80px white,
+  1485px 223px white,
+  1420px 30px white,
+  1387px 97px white,
+  1340px 86px white,
+  1569px 20px white,
+  1095px 565px white,
+  1165px 495px white,
+  1280px 600px white,
+  1176px 138px white,
+  1100px 30px white,
+  1072px 117px white,
+  1143px 225px white,
+  1073px 413px white,
+  1220px 50px white,
+  1324px 17px white,
+  1220px 50px white;
+}
+
+.stars2{
+  position: relative;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 15px 15px white, 
+    125px 35px white,
+    50px 80px white,
+    10px 120px white,
+    275px 90px white,
+    230px 10px white,
+    120px 130px white,
+    300px 130px white,
+    220px 115px white,
+    310px 200px white,
+    1230px 178px white,
+    1350px 246px white,
+    1467px 287px white,
+    1500px 200px white,
+    1455px 300px white,
+    1432px 295px white,
+    1296px 176px white,
+    1363px 356px white,
+    1060px 430px white,
+    1243px 275px white,
+    1060px 52px white,
+    1047px 173px white,
+    1143px 100px white,
+    1121px 190px white;
+  animation: anim-stars 50s linear infinite;
+}
+
+.stars2::after{
+  content: " ";
+  position: absolute;
+  top: 780px;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  box-shadow: 15px 15px white, 
+    125px 35px white,
+    50px 80px white,
+    10px 120px white,
+    275px 90px white,
+    230px 10px white,
+    120px 130px white,
+    300px 130px white,
+    220px 115px white;
+}
+
+
+ @keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-780px);
+    }
+}
